@@ -14,6 +14,11 @@ h2{
   font-size: 1.25rem;
 }
 
+h2 label {
+  padding-bottom: 0px;
+  color: inherit;
+}
+
 label {
   display: block;
   padding-bottom: .62rem;
@@ -47,4 +52,19 @@ dl.third {
 
 dl.last {
   padding-right: 0;
+}
+
+input[type = "text"],
+input[type = "number"],
+input[type = "email"],
+input[type = "password"],
+textarea {
+  width: 100%;
+  height: 2.5rem;
+  padding: .31rem .5rem;
+  margin-bottom: 1.5rem;
+  font: normal .875rem Helvetica, Arial sans-serif;
+  border:1px solid #0066cc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
