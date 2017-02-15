@@ -1,0 +1,50 @@
+body {
+  font: normal 16px Helvetica, Arial, sans-serif;
+  color: #282828;
+}
+
+h1{
+  padding-bottom: 1.5rem;
+  font-size: 1.75rem;
+  font-weight: normal;
+}
+
+h2{
+  padding-bottom: 1.2rem;
+  font-size: 1.25rem;
+}
+
+label {
+  display: block;
+  padding-bottom: .62rem;
+  font-weight: bold;
+  color: #666666;
+}
+
+form{
+  max-width: 37.5rem;
+  padding: 1.5rem;
+  margin: 0 auto;
+}
+
+fieldset{
+  padding:1.5rem 2rem;
+  margin-bottom: 2px;
+  border-left: 4px solid;
+  background: #ececec;
+}
+
+dl.partial {
+  display: inline-block;
+  padding-right: 1.25rem;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+dl.third {
+  width: 33.3%;
+}
+
+dl.last {
+  padding-right: 0;
+}
